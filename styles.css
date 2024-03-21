@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.day {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.day h2 {
+  color: #333;
+}
+
+.day h3 {
+  color: #555;
+}
+
+.day p {
+  color: #777;
+  margin-bottom: 10px;
+}

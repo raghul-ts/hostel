@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hostel Menu</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2; /* Light theme background color */
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    h1 {
+        color: #333; /* Text color */
+    }
+
+    .options {
+        margin-bottom: 20px;
+    }
+
+    .options a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 0 10px;
+    }
+
+    .options a:hover {
+        background-color: #45a049; /* Darker green on hover */
+    }
+
+    input[type="number"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .next-btn {
+        background-color: #007bff; /* Blue */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .next-btn:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hostel Menu</h1>
+        <div class="options">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+        </div>
+        <form id="weightForm" action="about.html" method="get">
+            <label for="weight">Enter your weight:</label>
+            <input type="number" id="weight" name="weight" placeholder="Weight in kilograms" required>
+            <br><br>
+            <button type="submit" class="next-btn">Next</button>
+        </form>
+    </div>
+</body>
+</html>
